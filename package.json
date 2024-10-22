@@ -1,0 +1,24 @@
+{
+    "name": "python-formatter",
+    "displayName": "Python Formatter",
+    "description": "A plugin to auto format Python code according to PEP 8 standards",
+    "version": "0.0.1",
+    "publisher": "arina080803",
+    "engines": {
+      "vscode": "^1.50.0"
+    },
+    "activationEvents": [
+      
+    ],
+    "main": "extension.js",
+    "contributes": {
+      "commands": [
+        {
+          "command": "extension.formatPythonCode",
+          "title": "Format Python Code"
+        }
+      ]
+    },
+    "dependencies": {}
+  }
+  
